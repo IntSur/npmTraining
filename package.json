@@ -1,0 +1,21 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "NPM-Lession Name: 【NPM】包管理工具 #node package manager\r Video URL:https://www.bilibili.com/video/BV1Dv411W7XP?p=3&vd_source=dec0df5946c5a4e7864de4bc96371c49\r Notes:  这是NPM基础视频教程，这个文件夹内的文件相当于课堂笔记。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"babel src -w -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jquery": "^3.7.1"
+  }
+}
